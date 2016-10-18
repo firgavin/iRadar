@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_weight="1.5"
+        android:id="@+id/enemy_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/enemy_big"/>
+
+    <TextView
+        android:layout_weight="5"
+        android:id="@+id/enemy_name"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_weight="1.5"
+        android:id="@+id/del_enemy"
+        android:textStyle="bold"
+        android:text="DEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
